@@ -1,0 +1,40 @@
+#barMenu li a{
+	display:inline-block;
+
+	padding-bottom:0.4rem;
+	padding-top:0.4rem;
+	
+	opacity:60%;
+	
+}
+#listOfSongs li{
+
+  padding-bottom:0.5rem;
+  
+}
+
+#leftBar > *{
+	margin-left:1.6rem;
+	margin-right:1.6rem;
+}
+#barMenu li{
+
+	padding-top:0.3rem;
+	padding-top:0.3rem;	
+}
+
+#barMenu li img{
+
+	width:18px;
+	transform:translateY(-0.2rem);
+}
+
+input[type='text'] {
+    background-image: url("../img/search.png");
+    background-position: 0.80rem 0.6rem;
+    background-repeat: no-repeat;
+}
+
+.menuLinks:focus{
+	opacity:120 !important;
+}
