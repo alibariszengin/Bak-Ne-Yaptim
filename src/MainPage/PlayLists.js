@@ -1,7 +1,3 @@
-import ileri from './ileri.png';
-import geri from './geri.png';
-import './MainPage.css';
-import cover from './coverpicture.png';
 import PlayListCover from './PlayListsCover.js'
 const PlayList=({recentlyPlayed,recommend})=> {
   const recentlyLists=recentlyPlayed.map((user,i)=>{

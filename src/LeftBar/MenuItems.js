@@ -1,8 +1,3 @@
-import home from './HomeGiris.png';
-import search from '../img/search.png';
-import books from './books.png'
-
-
 const MenuItems=({text, name, img}) => {
 
 	function linkClicked(event) {
@@ -24,7 +19,7 @@ const MenuItems=({text, name, img}) => {
     
         <li  className="position-relative">
           <div  name={name} style={{width:"0.3rem",left:"-1.575rem",top:"0.1rem",content:" ",height:"2.5rem",background:"#66D36E",visibility:"hidden"}} className="MenuItem d-inline position-absolute"></div>
-          <a  href="#" onClick={linkClicked} className="menuLinks text-decoration-none text-white w-100" style={{opacity:"0.5"}}><img src={img} className="mr-3" />{text}</a>
+          <a  href="/#" onClick={linkClicked} className="menuLinks text-decoration-none text-white w-100" style={{opacity:"0.5"}}><img src={img} alt="Menu Item" className="mr-3" />{text}</a>
         </li>
 
     );

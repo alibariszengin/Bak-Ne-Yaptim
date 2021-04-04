@@ -1,4 +1,4 @@
-import UserList from '../UserList';
+import UserList from './UserList';
 import './LeftBar.css';
 const AllPlaylists=({userLists})=> {
   

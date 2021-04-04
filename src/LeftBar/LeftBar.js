@@ -1,7 +1,4 @@
-
-
 import BarMenu from './BarMenu.js';
-
 import MyPlaylists from './MyPlaylists.js';
 import logo from '../Logo.png';
 

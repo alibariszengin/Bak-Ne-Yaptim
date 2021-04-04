@@ -1,7 +1,6 @@
 import ileri from './ileri.png';
 import geri from './geri.png';
 import './MainPage.css';
-import cover from './coverpicture.png';
 import PlayLists from './PlayLists.js';
 import profile from './ProfilePic.png';
 const MainPage=({recentlyPlayed,recommend})=> {
@@ -22,7 +21,7 @@ const MainPage=({recentlyPlayed,recommend})=> {
                   
                 </div>
                 <div className="position-relative float-right" style={{marginTop:"0.9rem",marginRight:"3rem"}}>
-                  <div style={{overflow: "hidden" ,textOverflow: "ellipsis",  whiteSpace: "nowrap",textAlign:"left",outline:"none",borderRadius:"18px",border:"0px",padding:"0.3rem",paddingLeft:"2.5rem",paddingRight:"1.5rem",backgroundColor:"#282828",width:"13rem",height:"2.3rem"}}><img src={profile} className="position-absolute" style={{left:"0.4rem",top:"0.4rem"}}/>Ali Barış Zengin Ve Profil Sahibi</div>
+                  <div style={{overflow: "hidden" ,textOverflow: "ellipsis",  whiteSpace: "nowrap",textAlign:"left",outline:"none",borderRadius:"18px",border:"0px",padding:"0.3rem",paddingLeft:"2.5rem",paddingRight:"1.5rem",backgroundColor:"#282828",width:"13rem",height:"2.3rem"}}><img src={profile} alt="profile pic" className="position-absolute" style={{left:"0.4rem",top:"0.4rem"}}/>Ali Barış Zengin Ve Profil Sahibi</div>
                 </div>
               </div>
 
